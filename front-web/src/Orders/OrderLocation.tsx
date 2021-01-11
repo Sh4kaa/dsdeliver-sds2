@@ -40,7 +40,8 @@ function OrderLocation({ onChangeLocation }: Props) {
         position: {
           lat: item.center[1],
           lng: item.center[0]
-        }
+        },
+        place: item.place_name,
       });
     });
 
